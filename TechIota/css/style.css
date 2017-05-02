@@ -19,3 +19,8 @@ body, html {
   width: 100px;
   height: 60px;
 }
+#txtArea{
+	height:150px;
+    width:634px;
+    word-break: break-word;
+}
