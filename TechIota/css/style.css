@@ -24,3 +24,61 @@ body, html {
     width:634px;
     word-break: break-word;
 }
+
+.w3-card {
+	position:relative;
+    height: 270px;
+}
+
+/**
+ * About card to have some 3d effect while mouse hover
+ * shadow
+ */
+.aboutCard{
+/*  -moz-box-shadow: 3px 3px 4px #000; 
+ -webkit-box-shadow: 3px 3px 4px #000;  */
+ box-shadow: 3px 3px 4px #0D7938; 
+}
+
+/**
+ * To make the setting in About page spin slowly
+ */
+.slow-spin {
+  -webkit-animation: fa-spin 6s infinite linear;
+  animation: fa-spin 6s infinite linear;
+}
+
+/**
+ * About card to have some 3d effect while mouse hover
+ * shadow
+ */
+.questionCard{
+/*  -moz-box-shadow: 3px 3px 4px #000; 
+ -webkit-box-shadow: 3px 3px 4px #000;  */
+ box-shadow: 3px 3px 4px #A80A0A; 
+}
+
+/**
+ * To put a button on button corner of card
+ */
+.w3-card .btn-holder {
+	
+ /*  justify-content: flex-end;
+  display: flex; */
+  position:absolute;
+    bottom:0;
+    right:0;
+}
+
+#getQuestion {
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+#getQuestion:hover{
+    color: #A80A0A;  }
+     
