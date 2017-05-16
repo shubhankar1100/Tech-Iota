@@ -1,10 +1,33 @@
- data = {"items": [
-		                 	 {
-		                 	   "title": "sample 1",
-		                 	   "author": "author 1"
-		                 	 },
-		                 	 {
-		                 	  "title": "sdample 2",
-		                 	  "author": "author 2"
-		                 	 }
-		                 	]};
+{"interviewQuestions":[{
+	   "question": "What do you know about Java?",
+	   "answer": "Java is a high-level programming language originally developed by Sun Microsystems and released in 1995. Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX."
+	 },
+	 {
+	  "question": "Why Java is considered dynamic?",
+	  "answer": "It is designed to adapt to an evolving environment. Java programs can carry extensive amount of run-time information that can be used to verify and resolve accesses to objects on run-time."
+	 },
+	 {
+	   "question": "What do you mean by Object?",
+	   "answer": "Object is a runtime entity and it’s state is stored in fields and behavior is shown via methods. Methods operate on an object's internal state and serve as the primary mechanism for object-to-object communication."
+	 },
+	 {
+	  "question": "Define class?",
+	  "answer": "A class is a blue print from which individual objects are created. A class can contain fields and methods to describe the behavior of an object."
+	 },
+	 {
+	   "question": "What is Singleton class?",
+	   "answer": "Singleton class control object creation, limiting the number to one but allowing the flexibility to create more objects if the situation changes."
+	 },
+	 {
+	  "question": "What do you mean by Constructor?",
+	  "answer": "Constructor gets invoked when a new object is created. Every class has a constructor. If we do not explicitly write a constructor for a class the java compiler builds a default constructor for that class."
+	 },
+	 {
+	   "question": "What do you mean by Access Modifier?",
+	   "answer": "Java provides access modifiers to set access levels for classes, variables, methods and constructors. A member has package or default accessibility when no accessibility modifier is specified."
+	 },
+	 {
+	  "question": "When parseInt() method can be used?",
+	  "answer": "This method is used to get the primitive data type of a certain String."
+	 }
+	]}
